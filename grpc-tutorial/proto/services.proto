@@ -11,7 +11,7 @@ service TransactionService {
 }
 
 service ChatService {
-    rpc Chat(stream ChatMessage) return (stream ChatMessage);
+    rpc Chat(stream ChatMessage) returns (stream ChatMessage);
 }
 
 message PaymentRequest {
